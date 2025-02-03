@@ -1,0 +1,145 @@
+.red{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: red;
+}
+.green{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: green;
+  border-radius: 25px;
+}
+.ser{
+  font-family: Arial;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.service{
+  display: inline-block;
+  width: 300px;
+  border-width: 1px;
+  border-color: rgb(150, 150, 150);
+  border-style: solid;
+  height: 100px;
+}
+.yes{
+ margin-left: 20px;
+}
+.install{
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: white;
+  padding-left: 10px;
+}
+.add{
+  font-family: Arial;
+    width: 320px;
+    color: rgb(150, 150, 150);
+    padding-left: 10px;
+}
+.youtube-music{
+  display: inline-block;
+  background-color: black;
+  width: 350px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+  
+}
+.Twitter{
+  border-style: none;
+  width: 150px;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+.Tweet{
+  background-color: rgb(9, 102, 251);
+  color: white;
+  height: 35px;
+  width: 90px;
+  border-radius: 25px;
+  border-style: none;
+  vertical-align: middle;
+}
+.Twitter-tweet{
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.15);
+  display: block;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+  
+}
+.cat{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 2px;
+}
+.oliver{
+  font-family: Aria;;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.mutual{
+  color: rgb(150, 150, 150);
+  padding-left: 10px;
+  margin-top: 2px;
+}
+.add-friend{
+  width: 90px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 10px;      
+}
+.linkedin{
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.35);
+  width: 180px;
+  height: 295px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.google{     
+ text-align: center;      
+}
+.box{
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  text-align: center;
+ 
+}
+.search-box-google{
+  text-align: center;
+}
+.google-button{
+  width: 150px;
+  height: 40px;
+  border-style: none;
+  margin-left: 10px;
+}
+.final{
+  text-align: center;
+  margin-top: 20px;
+}

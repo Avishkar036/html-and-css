@@ -1,0 +1,72 @@
+.a{
+  width: 300px;
+  border-radius: 20px;
+}
+.b{
+  width: 300px;
+  height:300px;
+  margin-left: 50px;
+}
+.c{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-left: 50px;      
+}
+.search-box{
+  font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border-style: solid;
+  width: 100px;
+}
+.google{
+  font-size: 30px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.linkedin{
+  border-style: solid;
+  border-radius: 3px;
+  margin-bottom: 0px;
+  width: 310px;
+}
+.letxt{
+  margin-top: 0px;
+  color: rgb(94, 94, 94);
+}
+.linkd{
+  background-color: rgb(9, 102, 251);
+  color: white;
+  border-style: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 310px;
+}
+.profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+.Twitter{
+  border-style: none;
+  width: 150px;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+.Tweet{
+  background-color: rgb(9, 102, 251);
+  color: white;
+  height: 35px;
+  width: 90px;
+  border-radius: 25px;
+  border-style: none;
+  vertical-align: middle;
+}
