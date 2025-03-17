@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-practice</title>
+    <style>
+      .cat {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 2px;
+      }
+      .oliver {
+        font-family: Aria;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .mutual {
+        color: rgb(150, 150, 150);
+        padding-left: 10px;
+        margin-top: 2px;
+      }
+      .add-friend {
+        width: 90px;
+        height: 40px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+        margin-left: 10px;
+      }
+      .linkedin {
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.35);
+        width: 180px;
+        height: 295px;
+        display: inline-block;
+        grid-template-columns: 180px 180px 180px;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .linkedin-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 20px;
+      "
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+      <div style="background-color: lightgreen">div 3</div>
+      <div style="background-color: lightpink">div 4</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 100px 1fr; margin-top: 20px"
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">1fr</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        margin-top: 20px;
+      "
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">1fr</div>
+      <div style="background-color: lightgreen">1fr</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        margin-top: 20px;
+      "
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">1fr</div>
+      <div style="background-color: lightgreen">2fr</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 200px 75px; margin-top: 20px"
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">div 2</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 20px;
+      "
+    >
+      <div style="background-color: lightblue">col 1</div>
+      <div style="background-color: lightpink">col 2</div>
+      <div style="background-color: lightgreen">col 3</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 20px;
+        column-gap: 20px;
+        row-gap: 10px;
+      "
+    >
+      <div style="background-color: lightblue">col 1</div>
+      <div style="background-color: lightpink">col 2</div>
+      <div style="background-color: lightgreen">col 3</div>
+      <div style="background-color: lightcoral">col 4</div>
+      <div style="background-color: lightblue">col 5</div>
+      <div style="background-color: lightpink">col 6</div>
+      <div style="background-color: lightgreen">col 7</div>
+      <div style="background-color: lightcoral">col 8</div>
+    </div>
+
+    <div class="linkedin-grid">
+      <div class="linkedin">
+        <img class="cat" src="../thumbnail/cat.jpg" alt="1" />
+        <p class="oliver">Oliver</p>
+        <p class="mutual">2 mutual friends</p>
+        <button class="add-friend">Add friend</button>
+      </div>
+
+      <div class="linkedin">
+        <img class="cat" src="../thumbnail/cat2.jpg" alt="1" />
+        <p class="oliver">Mimi</p>
+        <p class="mutual">3 mutual friends</p>
+        <button class="add-friend">Add friend</button>
+      </div>
+
+      <div class="linkedin">
+        <img class="cat" src="../thumbnail/dog.jpg" alt="1" />
+        <p class="oliver">Rex</p>
+        <p class="mutual">4 mutual friends</p>
+        <button class="add-friend">Add friend</button>
+      </div>
+    </div>
+  </body>
+</html>

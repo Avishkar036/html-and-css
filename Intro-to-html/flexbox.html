@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLexbox</title>
+  <style>
+    .button{
+      width: 30px;
+      height: 25px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 15px;  
+      text-align: center;    
+    }
+  </style>
+</head>
+<body style="padding-bottom: 1000px;">
+  <div style="display: flex;
+    flex-direction:row">
+    <div style="background-color:rgb(62, 201, 239);">div 1 text </div>
+    <div style="background-color: pink;"> div 2 <p>text</p></div>
+  </div>
+
+  <div style="display: flex;
+    flex-direction:row;
+    margin-top:30px;">
+    <div style="background-color:rgb(62, 201, 239);
+    width:100px">100px </div>
+    <div style="background-color: pink;
+    flex:1"> flex:1</div>
+  </div>
+  
+  <div style="display: flex;
+  flex-direction:row;
+  margin-top:30px;">  
+  <div style="background-color: rgb(62, 201, 239);
+  flex:1"> flex:1</div>
+  <div style="background-color:pink;
+  width:100px">100px </div>
+  <div style="background-color:rgb(62, 201, 239);
+  flex:2">flex:2 </div>
+ </div>
+
+ <div style="display: flex;
+  flex-direction:row;
+  margin-top:30px;">
+  <div style="background-color:rgb(62, 201, 239);
+  width:100px">100px </div>
+  <div style="background-color: pink;
+  flex:1"> flex:1</div>
+  <div style="background-color:rgb(62, 201, 239);
+  flex:2">flex:2 </div>
+ </div>
+
+ <div style="display: flex;
+  flex-direction:row;
+  margin-top:30px;
+  height:70px;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  justify-content:space-between;">
+  <div style="background-color:rgb(62, 201, 239);
+  width:100px;">100px </div>
+  <div style="background-color: pink;
+  width:100px;">100px</div>
+  <div style="background-color:rgb(62, 201, 239);
+  width:100px;">100px</div>
+ </div>
+
+ <div style="display: flex;
+  flex-direction:row;
+  margin-top:30px;
+  height:70px;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  justify-content:space-between;
+  align-items:center;">
+  <div style="background-color:rgb(62, 201, 239);
+  width:100px;">100px </div>
+  <div style="background-color: pink;
+  width:100px;">100px</div>
+  <div style="background-color:rgb(62, 201, 239);
+  width:100px;">100px</div>
+ </div>
+
+ <div style="display: flex;
+ flex-direction:row;
+ margin-top:30px">
+  <div style="width:200px;
+  background-color:lightblue">200px</div>
+  <div style="width: 75px;
+  background-color:lightpink">75px</div>
+ </div>
+
+ <div style="display: flex;
+ flex-direction:row;
+ margin-top:30px">
+  <div style="width:50px;
+  background-color:lightblue">item1</div>
+  <div style="flex:1;
+  background-color:lightpink">item2</div>
+  <div style="width:50px;
+  background-color:lightblue">item3</div>
+ </div>
+
+ <div style="display: flex;
+ flex-direction:row;
+ margin-top:30px;
+ justify-content:space-between;">
+  <div style="width:50px;
+  background-color:lightblue">item1</div>
+  <div style="width:50px;
+  background-color:lightpink">item2</div>
+  <div style="width:50px;
+  background-color:lightblue">item3</div>
+  <div style="width:50px;
+  background-color:lightpink">item4</div>
+ </div>
+<div style="display: flex;
+flex-direction:row;
+height:50px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+justify-content:space-between;
+align-items:center;
+margin-top:30px;
+">
+  <div style="background-color: lightpink;">item1</div>
+  <div style="background-color: lightpink;">item2</div>
+</div>
+
+<div style="display: bolck;
+height:200px;
+width:500px;
+border-style:solid;
+border-width:1px;
+border-color:gray;
+border-radius:10px;
+margin-top:30px;
+">
+
+  <div style="display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  height:60px;
+  margin:10px;
+  margin-top:0px;
+  ">
+    <div>Home</div>
+    <button class="button">14</button>
+  </div>
+
+  <div style="display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  height:60px;
+  margin:10px;
+    margin-top:0px;
+  ">
+    <div>Messages</div>
+    <button class="button">6</button>
+  </div>
+
+  <div style="display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  height:60px;
+  margin:10px;
+    margin-top:0px;
+  ">
+    <div> Notification</div>
+    <button class="button">4</button>
+  </div>
+</div>
+ 
+
+</body>
+</html>
