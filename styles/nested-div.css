@@ -1,0 +1,35 @@
+.cat{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 2px;
+}
+.oliver{
+  font-family: Aria;;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.mutual{
+  color: rgb(150, 150, 150);
+  padding-left: 10px;
+  margin-top: 2px;
+}
+.add-friend{
+  width: 90px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 10px;      
+}
+.linkedin{
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.35);
+  width: 180px;
+  height: 295px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
